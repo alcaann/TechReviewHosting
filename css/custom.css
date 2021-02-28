@@ -1,0 +1,99 @@
+@font-face {
+    font-family: eras;
+    src: url('../assets/fonts/ERASBD.TTF') format('embedded-opentype'), /* Internet Explorer */
+         url('../assets/fonts/ERASBD.TTF') format('woff2'), /* Super Modern Browsers */
+         url('../assets/fonts/ERASBD.TTF') format('woff'), /* Pretty Modern Browsers */
+         url('../assets/fonts/ERASBD.TTF') format('truetype'), /* Safari, Android, iOS */
+         url('../assets/fonts/ERASBD.TTF') format('svg'); /* Legacy iOS */
+
+}
+@font-face {
+  font-family: archivo;
+  src: url('../assets/fonts/Archivo-Regular.ttf') format('embedded-opentype'), /* Internet Explorer */
+       url('../assets/fonts/Archivo-Regular.TTF') format('woff2'), /* Super Modern Browsers */
+       url('../assets/fonts/Archivo-Regular.TTF') format('woff'), /* Pretty Modern Browsers */
+       url('../assets/fonts/Archivo-Regular.TTF') format('truetype'), /* Safari, Android, iOS */
+       url('../assets/fonts/Archivo-Regular.TTF') format('svg'); /* Legacy iOS */
+
+}
+ body#page-top>nav#mainNav>div>a{ font-family: eras;} 
+
+ #reviewTH td{
+   border: 20px solid red;
+ }
+
+ #caja{
+     position: relative;
+     display: inline-block;
+ }
+
+ #caja2{
+     position: absolute;
+     top: 20%;
+     right: 10%;
+     font-size: 16px;
+     color: black;
+ }
+
+ #bloque1Review{
+     border: 4px solid black;
+     background-color: rgba(0, 0, 0, 0.582);
+ }
+
+  
+  #content_div_one_photo {
+    border-radius: 10px;
+    border: 5px solid black;
+  }
+  
+  #padre {
+    position: relative;    /* para poder posicionar el texto de forma absoluta */
+    display: inline-block; /* para que solo ocupe el ancho de la imagen */
+  }
+  
+  .card-title {
+    position: absolute;    /* posición absolute con respecto al padre */
+    top: 1rem;             /* posicionada en la esquina inferior derecha */
+    left: 1rem;
+  }
+
+
+section#declaracion-licencias a, div a[rel="license"]{
+  color: #FF8F1C;
+  text-decoration: none;
+  background-color: transparent;
+}
+section#declaracion-licencias a:hover, div a:hover[rel="license"]{
+  color: white;
+  text-decoration: underline;
+  }
+
+
+  .btn-outline-envio {
+    color: #ffffff;
+    border-color: #ffffff;
+  }
+  .btn-outline-envio:hover {
+    color: #212529;
+    background-color: #FF8F1C;
+    border-color: #FF8F1C;
+  }
+  .btn-outline-envio:focus, .btn-outline-warning.focus {
+    box-shadow: 0 0 0 0.2rem rgba(255, 193, 7, 0.5);
+  }
+  .btn-outline-warning.disabled, .btn-outline-warning:disabled {
+    color: #FF8F1C;
+    background-color: transparent;
+  }
+  .btn-outline-warning:not(:disabled):not(.disabled):active, .btn-outline-envio:not(:disabled):not(.disabled).active, .show > .btn-outline-envio.dropdown-toggle {
+    color: #212529;
+    background-color: #FF8F1C;
+    border-color: #FF8F1C;
+  }
+  .btn-outline-envio:not(:disabled):not(.disabled):active:focus, .btn-outline-envio:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-envio.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(255, 193, 7, 0.5);
+  }
+
+  .checked {
+    color: #FF8F1C;
+  }
